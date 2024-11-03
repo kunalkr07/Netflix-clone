@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--The main container starts here and contain main page of the website-->
+
+    <div class="container1">
+      <!--We add nav bar inside the main page which has two divs logo and menu-->
+      <nav class="navbar">
+        <div class="logo"></div>
+        <!---The menu div have select and  button-->
+        <div class="menu">
+          <select name="choice" id="">
+            <i class="fa-solid fa-language"></i>
+            <option value="">English</option>
+            <option value="">Hindi</option>
+          </select>
+          <button type="button">Sign Out</button>
+        </div>
+      </nav>
+
+      <!--The inner box contains only text-->
+
+      <div class="inner-box">
+        <p>Welcome Back!</p>
+        <h1>Unlimited movies, TV shows and more</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <button class="sign-up-btn">Get Started</button>
+      </div>
+    </div>
+    <hr />
+    <!--This container contains text and video inside the image-->
+
+    <div class="container2">
+      <div class="text">
+        <h1>Enjoy on your TV</h1>
+        <h2>
+          Watch on smart TVs, PlayStation, Xbox,<br />
+          Chromecast, Apple TV, Blu-ray players and more.
+        </h2>
+      </div>
+
+      <!--This container have a video of netflix preview-->
+      <div class="text-image">
+        <div class="image-box">
+          <video src="netflix.mp4" autoplay muted></video>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--The third container starts here ,which also have text and video preview-->
+    <div class="container3">
+      <div class="container3-videoImage"></div>
+      <div class="container3-text">
+        <h1>
+          Download your shows <br />
+          to watch offline
+        </h1>
+        <h3>
+          Save your favourites easily and <br />always have something to watch.
+        </h3>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--The container4 starts here-->
+
+    <div class="container4">
+      <div class="container4-text">
+        <h1>Watch everywhere</h1>
+        <h3>
+          Stream unlimited movies and TV shows <br />
+          on your phone, tablet, laptop, and TV.
+        </h3>
+      </div>
+      <div class="container4-video">
+        <div class="img"></div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--The container5 starts here-->
+    <div class="container5">
+      <div class="container5-vid">
+        <div class="img1"></div>
+      </div>
+      <div class="container5-text">
+        <div class="txt">
+          <h1>
+            Create profiles for <br />
+            kids
+          </h1>
+          <p>
+            Send children on adventures with their favourite <br />
+            characters in a space made just <br />
+            for them—free with your membership.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--The Question box container starts here-->
+    <div class="container6">
+      <h1>Frequently Asked Questions</h1>
+
+      <div id="box1" class="box">
+        <h2>What is Netflix?</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div id="box2" class="box">
+        <h2>How much Netflix does cost?</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div id="box3" class="box">
+        <h2>Where can i watch?</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div id="box4" class="box">
+        <h2>Where can i cancel?</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div id="box5" class="box">
+        <h2>What can i watch on Netflix?</h2>
+        <i class="fa-solid fa-plus"></i>
+      </div>
+
+      <button class="sign-up-btn">Finish Sign Up</button>
+    </div>
+
+    <hr />
+
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h5>About Us</h5>
+              <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Help</h5>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Account</h5>
+              <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Watchlist</a></li>
+                <li><a href="#">Settings</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Follow Us</h5>
+              <ul>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <p class="copyright">© 2023 Netflix Clone. All rights reserved.</p>
+        </div>
+      </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
